@@ -1,0 +1,12 @@
+﻿
+
+<asp:image runat="server" ImageUrl="~/images/avatar5.png" SkinId="avatar5" class="img-fluid rounded"/>
+<asp:image runat="server" ImageUrl="~/images/avatar3.png" SkinId="avatar3" class="img-fluid rounded"/>
+<asp:image runat="server" ImageUrl="~/images/avatar6.png" SkinId="avatar6" class="img-fluid rounded"/>
+<asp:image runat="server" ImageUrl="~/images/avatar7.png" SkinId="avatar7" class="img-fluid rounded"/> 
+
+
+<asp:image runat="server" ImageUrl="~/images/nipis.jpg" SkinId="mylekornipis"/>
+<asp:image runat="server" ImageUrl="~/images/losong.jpg" SkinId="mylekortebal"/> 
+
+<asp:image runat="server" ImageUrl="~/images/about-myLekor.png" SkinId="aboutmylekor"/> 

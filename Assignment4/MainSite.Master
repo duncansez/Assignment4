@@ -1,0 +1,212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainSite.master.cs" Inherits="Assignment4.MainSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--ADD BOOTSTRAP STYLE -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.png" type="">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="myLekor_header_area">
+            <div class="bg-box">
+              
+            </div>
+            <!-- header section strats -->
+            <header class="header_section">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg custom_nav-container ">
+                        <a class="navbar-brand" href="default.aspx">
+                            <span>myLekor
+                            </span>
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class=""></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav  mx-auto ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="default.aspx">Laman Utama<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="myLekor.aspx">myLekor</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="TentangKami.aspx">TENTANG KAMI</a>
+                                </li>                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- slider section -->
+            <section class="slider_section ">
+                <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-md-7 col-lg-6 ">
+                                        <div class="detail-box">
+                                            <h1>myLekor Sedap
+                                            </h1>
+                                            <p>
+                                                myLekor hanya mempunyai kandungan perasa tambahan yang sedikit. Menurut Jabatan Perikanan Malaysia, hanya 0.3% monosodium glutamate (MSG) dibenarkan dalam adunan keropok lekor. Kandungannya yang sedikit menjadikannya pilihan yang lebih baik dan sihat berbanding makanan ringan. 
+                                            </p>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-md-7 col-lg-6 ">
+                                        <div class="detail-box">
+                                            <h1>Lagi Fakta Tentang myLekor
+                                            </h1>
+                                            <p>
+                                                myLekor mempunyai kandungan nutrisi yang lebih baik dan sihat berbanding makanan ringan. Ia tidak mempunyai perwarna tambahan serta sedikit perasa tambahan untuk menyedapkan rasa.
+                                            </p>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col-md-7 col-lg-6 ">
+                                        <div class="detail-box">
+                                            <h1>Lagi Fakta
+                                            </h1>
+                                            <p>
+                                                myLekor juga mempunyai nilai nutrisi seperti kandungan zat besi dan calcium yang tinggi berbanding makanan ringan. Zat besi penting untuk membawa oksigen ke otot dan otak untuk meningkatkan prestasi mental dan fizikal. Ikan dari keropok lekor juga mempunyai sumber kalsium. Kalsium ini penting untuk menguatkan tulang untuk mengelakkan tulang rapuh. 
+                                            </p>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <ol class="carousel-indicators">
+                            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+                            <li data-target="#customCarousel1" data-slide-to="1"></li>
+                            <li data-target="#customCarousel1" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+
+            </section>
+            <!-- end slider section -->
+        </div>
+        <!-- end header section -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- footer section -->
+        <footer class="footer_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-col">
+                        <div class="footer_contact">
+                            <h4>Hubungi Kami
+                            </h4>
+                            <div class="contact_link_box">
+                                <a href="">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>Location
+                                    </span>
+                                </a>                               
+                                <a href="">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>assignment4@gmail.com
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 footer-col">
+                        <div class="footer_detail">
+                            <a href="" class="footer-logo">myLekor
+                            </a>
+                            <p>
+                                myLekor sedap warisan negara
+                            </p>
+                            <div class="footer_social">
+                                <a href="">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 footer-col">
+                        <h4>Konsep
+                        </h4>
+                        <p>
+                            Master Pages, Skins and Themes.
+                        </p>
+                        <p>
+                            Kami juga menggunakan bootstrap v4.3.1
+                        </p>
+                        <p>
+                            Kami juga menerapkan budaya Malaysia pada website ini.
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <p>
+                        &copy; <span id="displayYear"></span> Disediakan oleh
+          <a href="#">Hafiz,Ainon,Savith & Sobery</a><br>
+                        <br>
+          <a href="#" target="_blank">Assignment 4</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section -->
+    </form>
+    <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+</html>
